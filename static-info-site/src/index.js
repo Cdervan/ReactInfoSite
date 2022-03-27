@@ -1,24 +1,13 @@
-function Page() {
-    return (
-        <div>
-            <img src="./react-logo.png" width="100"></img>
-            <h1>Fun facts about React</h1>
-            <ul>
-                <li>Was first released in 2013</li>
-                <li>Was originally created by Jordan Walke</li>
-                <li>Has well over 100k stars on Github</li>
-                <li>Is maintained by Facebook</li>
-                <li>Powers thousands of enterprise apps, including mobile apps</li>
-            </ul>
-        </div>
-    )
-}
+import React from "react"
+import ReactDOM from "react-dom"
+import "./style.css"
+import reactLogo from "../src/images/react-logo.png"
 
 function Header() {
     return (
         <header className="header">
             <nav className="nav">
-                <img className="nav-logo" src="./react-logo.png" width="40px" />
+                <img className="nav-logo" src={reactLogo} width="40px" />
                 <ul className="nav-items">
                     <li>Videos</li>
                     <li>About</li>
@@ -28,6 +17,7 @@ function Header() {
         </header>
     )
 }
+
 function Body() {
     return (
         <div>
@@ -41,6 +31,7 @@ function Body() {
         </div>
     )
 }
+
 function Footer() {
     return (
         <footer className="footer">
@@ -48,6 +39,7 @@ function Footer() {
         </footer>
     )
 }
+
 function Page() {
     return (
         <div>
