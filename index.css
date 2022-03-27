@@ -1,4 +1,30 @@
-html, body {
-    margin: 0;
-    padding: 0;
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-logo {
+    width: 60px;
+}
+.nav-items {
+    list-style: none;
+    display: flex;
+}
+.nav-items > li {
+    padding: 10px;
+}
+.header {
+    text-decoration-line: underline;
+    text-shadow: 1px -2px purple
+}
+.footer {
+    display: flex;
+    vertical-align: text-bottom;
+    height: 100px;
+    width: 350px;
+    background: gray;
+}
+.footerText {
+    display:  flex;
+    vertical-align: text-bottom;
 }
