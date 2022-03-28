@@ -61,3 +61,8 @@ body {
         line-height: 20px;
         padding-block: 10px;
 }
+
+.facts-list > li::marker {
+    color: #61DAFB;
+    font-size: 1.4rem;
+}
